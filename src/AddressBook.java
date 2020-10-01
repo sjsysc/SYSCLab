@@ -19,6 +19,11 @@ public class AddressBook {
             Buddy.remove(index);
         }
     }
+
+    public String getNameofBuddy(int index) {
+        return Buddy.get(index).getName();
+    }
+    
     public static void main(String[] args) {
         BuddyInfo b=new BuddyInfo("A");
         BuddyInfo b2=new BuddyInfo("B");
